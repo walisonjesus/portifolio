@@ -104,15 +104,19 @@ body{
     background-color: var(--cor-primaria);
   }
   
-
+  
 .btn {
-    margin: 5px;
     background-color: var(--cor-terciaria);
-    
+    margin-left: 35%;
+    align-items: center;
+   
+}
+.btn-secondary{
+    margin-left: 2%;
 }
 
 .btn:hover{
-    background-color: var(--cor-hover);
+    background-color: #2290FD;
 }
 
 .carousel-caption h5 {
